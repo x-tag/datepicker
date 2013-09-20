@@ -1,16 +1,16 @@
 {
 	"name": "Datepicker",
 	"tagName": "x-datepicker",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"author": "Leon Zhang",
 	"description": "A polyfill for <input type='date'> utilizing the x-calendar component.",
 	"demo": "demo/testpage.html",
 	"categories": [
-  	"ui"
-  ],
-  "dependencies": [
-  	"calendar"
-  ],
+		"ui"
+	],
+	"dependencies": [
+		"calendar"
+	],
 	"compatibility": {
 		"firefox": 5,
 		"chrome": 4,
@@ -30,9 +30,7 @@
 			"input": "Fired by the <x-datepicker> any time the user selects a date. Also fired as the user types in a date.",
 			"change": "Fired by the <x-datepicker> whenever the submitValue of the datepicker changes or when the value is finalized. In other words, while input fires as the user types, change only fires if this changes the date selected by the datepicker, or if the user hits enter/leaves the datepicker's focus and the date gets parsed into ISO format."
 		},
-		"methods": {
-
-		},
+		"methods": {},
 		"getters": {
 			"name": "Retrieves the current name of the datepicker element. This is required for a value to be submitted to a default form.",
 			"value": "Retrieves the currently displayed value of the datepicker element. Note that this may not necessarily be the value that would be submitted to a form. For example, if the user is currently typing 'July 4, 2013' and hasn't left focus yet, the value is 'July 4, 2013', not '2013-07-04'.",
