@@ -1,7 +1,7 @@
 {
 	"name": "Datepicker",
 	"tagName": "x-datepicker",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"author": "Leon Zhang",
 	"description": "A polyfill for <input type='date'> utilizing the x-calendar component.",
 	"demo": "demo/testpage.html",
