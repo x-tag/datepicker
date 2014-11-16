@@ -106,7 +106,7 @@
     is parseable by Date.parse
     **/
     function parseSingleDate(dateStr){
-        if(isValidDateObj(dateStr)) return dateStr;
+        if(isValidDateObj(dateStr)) return toUTCDate(dateStr);
 
         // cross-browser check for ISO format that is not
         // supported by Date.parse without implicit time zone
